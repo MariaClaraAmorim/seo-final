@@ -13,7 +13,39 @@ export default function Home(props) {
   return (
     <>
       <Head>
-        <title>{title}</title>
+        <title>Home</title>
+        <meta
+          name="description"
+          content="Essa é a descrição teste para o seo do dantas bike"
+        />
+        <meta property="og:url" content="https://seo-final.vercel.app/" />
+        <meta property="og:site_name" content="Dantas Bike" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Home" />
+        <meta
+          property="og:description"
+          content="Essa é a descrição teste para o seo do dantas bike"
+        />
+        <meta
+          property="og:image"
+          content="https://seo-final.vercel.app/bikeOGGI.png"
+        />
+        <meta property="og:image:secure_url" content="/bikeOGGI.png" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="seo-final.vercel.app" />
+        <meta property="twitter:url" content="https://seo-final.vercel.app/" />
+        <meta name="twitter:title" content="Home" />
+        <meta
+          name="twitter:description"
+          content="Essa é a descrição teste para o seo do dantas bike"
+        />
+        <meta
+          name="twitter:image"
+          content="https://seo-final.vercel.app/bikeOGGI.png"
+        />
+
+        {/* <title>{title}</title>
         <meta name="description" content={metaDescription} />
         <meta property="og:url" content="https://seo-final.vercel.app/" />
         <meta property="og:type" content="ecommerce Dantas Bike" />
@@ -31,7 +63,7 @@ export default function Home(props) {
         <meta property="og:image:secure_url" content="/bikeOGGI.png" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={metaDescription} />
-        <meta name="twitter:image" content="/bikeOGGI.png" />
+        <meta name="twitter:image" content="/bikeOGGI.png" /> */}
       </Head>
       <div>
         <h1 className="title">Dantas Bikes SEO final</h1>
