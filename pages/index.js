@@ -30,8 +30,11 @@ export default function Home(props) {
           property="og:image"
           content="https://seo-final.vercel.app/bikeOGGI.png"
         />
-        <meta property="og:image:secure_url" content="/bikeOGGI.png" />
-
+        <meta property="og:image:secure_url" content="https://seo-final.vercel.app/bikeOGGI.png" />
+     
+        <meta property="og:image:secure_url" content="https://seo-final.vercel.app/bikeOGGI_2.jpg" />
+     
+        
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="seo-final.vercel.app" />
         <meta property="twitter:url" content="https://seo-final.vercel.app/" />
@@ -43,6 +46,10 @@ export default function Home(props) {
         <meta
           name="twitter:image"
           content="https://seo-final.vercel.app/bikeOGGI.png"
+        />
+             <meta
+          name="twitter:image"
+          content="https://seo-final.vercel.app/bikeOGGI_2.jpg"
         />
 
         {/* <title>{title}</title>
