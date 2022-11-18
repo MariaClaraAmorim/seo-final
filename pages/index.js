@@ -15,11 +15,9 @@ export default function Home(props) {
       <Head>
         <title>{title}</title>
         <meta name="description" content={metaDescription} />
-        <meta
-          property="og:url"
-          content="https://seo-final.vercel.app/"
-        />
-        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://seo-final.vercel.app/" />
+        <meta property="og:type" content="ecommerce Dantas Bike" />
+        <meta property="og:site_name" content="Dantas Bike" />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={metaDescription} />
         <meta property="og:image" content="/bikeOGGI.png" />
@@ -28,11 +26,9 @@ export default function Home(props) {
           property="twitter:domain"
           content="seo-project-omega.vercel.app"
         />
-        <meta
-          property="twitter:url"
-          content="https://seo-final.vercel.app/"
-        />
+        <meta property="twitter:url" content="https://seo-final.vercel.app/" />
         <meta property="og:image" content="/bikeOGGI.png" />
+        <meta property="og:image:secure_url" content="/bikeOGGI.png" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={metaDescription} />
         <meta name="twitter:image" content="/bikeOGGI.png" />
