@@ -17,7 +17,7 @@ export default function Home(props) {
         <meta name="description" content={metaDescription} />
         <meta
           property="og:url"
-          content="https://seo-project-omega.vercel.app/"
+          content="https://seo-final.vercel.app/"
         />
         <meta property="og:type" content="website" />
         <meta property="og:title" content={title} />
@@ -30,7 +30,7 @@ export default function Home(props) {
         />
         <meta
           property="twitter:url"
-          content="https://seo-project-omega.vercel.app/"
+          content="https://seo-final.vercel.app/"
         />
         <meta property="og:image" content="/bikeOGGI.png" />
         <meta name="twitter:title" content={title} />
